@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- 改为 WinExe，运行时将不再弹出黑色控制台 -->
+    <OutputType>WinExe</OutputType>
+    <!-- 必须加上 -windows 才能调用系统 UI 组件 -->
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <!-- 启用 WinForms 支持 -->
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fleck" Version="1.2.0" />
+    <PackageReference Include="FSUIPCClientDLL" Version="3.3.16" />
+    <PackageReference Include="SimConnect.NET" Version="0.2.2" />
+    <PackageReference Include="System.Text.Json" Version="10.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="FSUIPC_WAPID.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
