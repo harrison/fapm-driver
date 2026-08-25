@@ -1,0 +1,54 @@
+{
+  "type": "flight_data",
+  "vatsim": {
+    "online": true,
+    "callsign": "CSN1234"
+  },
+  "simbrief": {
+    "callsign": "CSN1234",
+    "origin": "ZJHK",
+    "destination": "ZUUU",
+    "alternate": "ZGGG",
+    "orig_wx": {
+      "metar": "ZJHK 240000Z 12004MPS 9999 BKN030 25/20 Q1012 NOSIG",
+      "taf": "TAF ZJHK 240000Z 2400/2506 12004MPS 9999 BKN030 \nTEMPO 2406/2412 15006G12MPS -SHRA",
+      "notam_preview": "A0001/26 NOTAMN\nQ) ZJSA/QMXLC/IV/M/A/000/999/2000N11020E005\nA) ZJHK\nB) 2608240000\nC) 2608252359\nE) TWY A CLOSED DUE TO WIP."
+    },
+    "dest_wx": {
+      "metar": "ZUUU 240000Z 12004MPS 9999 BKN030 20/15 Q1015 NOSIG",
+      "taf": "",
+      "notam_preview": ""
+    },
+    "altn_wx": {
+      "metar": "ZGGG 240000Z 12004MPS 9999 SCT030 26/22 Q1010 NOSIG",
+      "taf": "",
+      "notam_preview": ""
+    }
+  },
+  "telemetry": {
+    "ias": 250,
+    "mach": 0.650,
+    "gs": 420,
+    "alt_baro": 25000,
+    "alt_radio": 25000,
+    "vs": 1500,
+    "ap1": true,
+    "ap2": false,
+    "athr": true,
+    "gear_down": false,
+    "spoilers": 0,
+    "wp_dist": 120,
+    "fuel_kg": 5000,
+    "com1": 122.800,
+    "overspeed": false,
+    "stall": false,
+    "master_warning": false,
+    "master_caution": false,
+    "gs_overspeed": false,
+    "eng1": true,
+    "eng2": true,
+    "on_ground": false,
+    "flight_phase": "Cruise",
+    "sim_time": "14:30:00"
+  }
+}
