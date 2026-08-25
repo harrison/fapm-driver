@@ -10,6 +10,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <NoWarn>NU1701</NoWarn>
+    <ApplicationIcon>app.ico</ApplicationIcon> <!-- 💡 增加这一行，告诉编译器图标在哪里 -->
   </PropertyGroup>
 
   <ItemGroup>

@@ -515,7 +515,7 @@ namespace FapmDriver
                         _globalData.telemetry.com1 = Math.Round(com1, 3); _globalData.telemetry.ap1 = fenixAp1;
                         _globalData.telemetry.ap2 = fenixAp2; _globalData.telemetry.athr = fenixAthr;
 
-                        _globalData.telemetry.gs_overspeed = (_currentPhase == FlightPhase.TaxiOut || _currentPhase == FlightPhase.TaxiIn) && gs > 25;
+                        _globalData.telemetry.gs_overspeed = (_currentPhase == FlightPhase.TaxiOut || _currentPhase == FlightPhase.TaxiIn) && gs > 28;
                         _globalData.telemetry.eng1 = eng1 > 0.5; _globalData.telemetry.eng2 = eng2 > 0.5; _globalData.telemetry.on_ground = onGround > 0.5;
                         _globalData.telemetry.flight_phase = _currentPhase.ToString();
 
