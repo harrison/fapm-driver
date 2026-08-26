@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Fenix A320",
+    "MatchTitle": "FenixA320",
+    "UseSimVarsOnly": false,
+    "AP1_LVar": "I_FCU_AP1",
+    "AP2_LVar": "I_FCU_AP2",
+    "ATHR_LVar": "I_FCU_ATHR",
+    "MasterWarning_LVar": "I_MIP_MASTER_WARNING_CAPT",
+    "MasterCaution_LVar": "I_MIP_MASTER_CAUTION_CAPT"
+  },
+  {
+    "Name": "iniBuilds A350",
+    "MatchTitle": "A350",
+    "UseSimVarsOnly": false,
+    "AP1_LVar": "INI_ap1_on",
+    "AP2_LVar": "INI_ap2_on",
+    "ATHR_LVar": "INI_ATHR_LIGHT",
+    "MasterWarning_LVar": ":INI_MASTER_WARNING_ACTIVE",
+    "MasterCaution_LVar": ":INI_MASTER_CAUTION_ACTIVE"
+  },
+  {
+    "Name": "Default / General Aviation",
+    "MatchTitle": "",
+    "UseSimVarsOnly": true,
+    "AP1_LVar": "",
+    "AP2_LVar": "",
+    "ATHR_LVar": "",
+    "MasterWarning_LVar": "",
+    "MasterCaution_LVar": ""
+  }
+]

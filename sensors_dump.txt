@@ -1,0 +1,118 @@
+====== 硬件传感器扫描报告 ======
+扫描时间: 2026/8/25 20:36:40
+
+[设备] ASUS ROG STRIX B450-I GAMING (Motherboard)
+
+[设备] AMD Ryzen 7 5800X (Cpu)
+  ├─ Load: CPU Core #1 = 42.86
+  ├─ Load: CPU Core #2 = 7.14
+  ├─ Load: CPU Core #3 = 14.29
+  ├─ Load: CPU Core #4 = 14.29
+  ├─ Load: CPU Core #5 = 14.29
+  ├─ Load: CPU Core #6 = 21.43
+  ├─ Load: CPU Core #7 = 7.14
+  ├─ Load: CPU Core #8 = 35.71
+  ├─ Load: CPU Core #9 = 21.43
+  ├─ Load: CPU Core #10 = 14.29
+  ├─ Load: CPU Core #11 = 7.14
+  ├─ Load: CPU Core #12 = 7.14
+  ├─ Load: CPU Core #13 = 0
+  ├─ Load: CPU Core #14 = 28.57
+  ├─ Load: CPU Core #15 = 7.14
+  ├─ Load: CPU Core #16 = 7.14
+  ├─ Load: CPU Total = 15.62
+  ├─ Load: CPU Core Max = 42.86
+  ├─ Power: Package = 0
+  ├─ Clock: Cores (Average) = 0
+  ├─ Clock: Cores (Average Effective) = 0
+  ├─ Clock: Core #1 = 
+  ├─ Clock: Core #1 (Effective) = 0
+  ├─ Factor: Core #1 = 
+  ├─ Power: Core #1 (SMU) = 0
+  ├─ Voltage: Core #1 VID = 1.55
+  ├─ Clock: Core #2 = 
+  ├─ Clock: Core #2 (Effective) = 0
+  ├─ Factor: Core #2 = 
+  ├─ Power: Core #2 (SMU) = 0
+  ├─ Voltage: Core #2 VID = 1.55
+  ├─ Clock: Core #3 = 
+  ├─ Clock: Core #3 (Effective) = 0
+  ├─ Factor: Core #3 = 
+  ├─ Power: Core #3 (SMU) = 0
+  ├─ Voltage: Core #3 VID = 1.55
+  ├─ Clock: Core #4 = 
+  ├─ Clock: Core #4 (Effective) = 0
+  ├─ Factor: Core #4 = 
+  ├─ Power: Core #4 (SMU) = 0
+  ├─ Voltage: Core #4 VID = 1.55
+  ├─ Clock: Core #5 = 
+  ├─ Clock: Core #5 (Effective) = 0
+  ├─ Factor: Core #5 = 
+  ├─ Power: Core #5 (SMU) = 0
+  ├─ Voltage: Core #5 VID = 1.55
+  ├─ Clock: Core #6 = 
+  ├─ Clock: Core #6 (Effective) = 0
+  ├─ Factor: Core #6 = 
+  ├─ Power: Core #6 (SMU) = 0
+  ├─ Voltage: Core #6 VID = 1.55
+  ├─ Clock: Core #7 = 
+  ├─ Clock: Core #7 (Effective) = 0
+  ├─ Factor: Core #7 = 
+  ├─ Power: Core #7 (SMU) = 0
+  ├─ Voltage: Core #7 VID = 1.55
+  ├─ Clock: Core #8 = 
+  ├─ Clock: Core #8 (Effective) = 0
+  ├─ Factor: Core #8 = 
+  ├─ Power: Core #8 (SMU) = 0
+  ├─ Voltage: Core #8 VID = 1.55
+  ├─ Temperature: Core (Tctl/Tdie) = 0
+  ├─ Voltage: Core (SVI2 TFN) = 1.55
+  ├─ Voltage: SoC (SVI2 TFN) = 1.55
+
+[设备] Virtual Memory (Memory)
+  ├─ Data: Memory Used = 23.661331
+  ├─ Data: Memory Available = 37.25955
+  ├─ Load: Memory = 38.839443
+
+[设备] Total Memory (Memory)
+  ├─ Data: Memory Used = 14.989712
+  ├─ Data: Memory Available = 16.931168
+  ├─ Load: Memory = 46.958958
+
+[设备] NVIDIA GeForce RTX 4070 (GpuNvidia)
+  ├─ Temperature: GPU Core = 48
+  ├─ Clock: GPU Core = 2505
+  ├─ Clock: GPU Memory = 10501.984
+  ├─ Fan: GPU Fan = 0
+  ├─ Control: GPU Fan = 0
+  ├─ Load: GPU Core = 15
+  ├─ Load: GPU Memory Controller = 9
+  ├─ Load: GPU Video Engine = 0
+  ├─ Load: GPU Bus = 0
+  ├─ Load: GPU Power = 18.36
+  ├─ Load: GPU Board Power = 22.277
+  ├─ Voltage: GPU Core Voltage = 0.965
+  ├─ SmallData: D3D Dedicated Memory Used = 2798.25
+  ├─ SmallData: D3D Shared Memory Used = 209.25
+  ├─ Load: D3D 3D = 0.88982064
+  ├─ Load: D3D Overlay = 0
+  ├─ Load: D3D Video Decode = 0
+  ├─ Load: D3D Copy = 0
+  ├─ Load: D3D Copy = 0.025704715
+  ├─ Load: D3D Security = 0
+  ├─ Load: D3D Video Encode = 0
+  ├─ Load: D3D Optical Flow Accelerator 0 = 0
+  ├─ Load: D3D VR = 0
+  ├─ Load: D3D Copy = 0
+  ├─ Load: D3D Copy = 0
+  ├─ Load: D3D Copy = 0
+  ├─ Load: D3D Copy = 0
+  ├─ Temperature: GPU Hot Spot = 57.28125
+  ├─ Temperature: GPU Memory Junction = 58
+  ├─ SmallData: GPU Memory Total = 12282
+  ├─ SmallData: GPU Memory Free = 9221
+  ├─ SmallData: GPU Memory Used = 3060
+  ├─ Load: GPU Memory = 24.91683
+  ├─ Power: GPU Package = 20.788
+  ├─ Throughput: GPU PCIe Rx = 11749376
+  ├─ Throughput: GPU PCIe Tx = 3200000
