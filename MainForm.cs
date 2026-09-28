@@ -549,7 +549,7 @@ namespace FapmDriver
                     else if (_athrDiscLatch) currentHighestAlarm = "ATHR_DISC";
                     else if (isFlying && isWarningLatched) currentHighestAlarm = "WARNING"; // 💡 已恢复你在天上才响的限制
                     else if (isFlying && isCautionLatched) currentHighestAlarm = "CAUTION"; // 💡 已恢复你在天上才响的限制
-                    else if (onGround < 0.5 && altRadio < 1000 && gearHandle < 0.5) currentHighestAlarm = "GEAR";
+                    else if (onGround < 0.5 && vs < -200 && altRadio < 1000 && gearHandle < 0.5) currentHighestAlarm = "GEAR";
                     else if (isOfflineAlarm && inActivePhase) currentHighestAlarm = "VATSIM";
 
                     if (currentHighestAlarm != _lastHighestAlarm && currentHighestAlarm != "NONE") _isAlarmMuted = false;
